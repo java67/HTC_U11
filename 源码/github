@@ -1,0 +1,29 @@
+以前一直用window7，上传github文件用的是界面下的GitHub for Window,最近装了ubuntu虚拟机学习项目都在是ubuntu下，虽然ubuntu可以实现和window文件互传，个人觉得太麻烦了。所以学习了ubuntu下将本地项目上传到github,还不太熟练，故做一下笔记。
+
+Github网页新建一个仓库，名为：Django_Study
+复制项目URL
+在本地进入项目列表 :Myblog
+执行命令： git init
+执行命令： git add .
+执行命令：git status 
+该命令会把你本地工作区和暂存区的版本进行比较，查 看当前的状态。我下面的状态是已经把所有文件加入到了 暂存区中，但是还没有提交到本地历史区。
+执行命令：git commit -m "初始化提交" 
+此时文件还在本地。
+8 . 执行命令git remote add origin 复制项目的url
+9 . 执行命令：git pull origin master
+10.提交命令：git push -u origin master 
+此时在浏览器可以看到： 
+
+修改项目中的信息后，可以通过git status查看修改状态。 
+注意： 取消一个目录的git初始化
+
+rm -rf .git
+或者删除目录里面的.git文件 
+参考资料：github官网： 
+
+更新
+克隆github上的项目到本地
+
+git clone https://github.com/你的github用户名/github仓库名.git
+1
+

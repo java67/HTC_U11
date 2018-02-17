@@ -1,0 +1,19 @@
+[
+  {
+    "repository": "kernel_htc_msm8998",
+    "target_path": "kernel/htc/msm8998"
+  },
+ {
+   "repository": "vendor_nxp-nfc_opensource_frameworks",
+   "target_path": "vendor/nxp-nfc/opensource/frameworks"
+ },
+ {
+   "repository": "vendor_nxp-nfc_opensource_libnfc-nci",
+   "target_path": "vendor/nxp-nfc/opensource/libnfc-nci"
+ },
+ {
+   "repository": "vendor_nxp-nfc_opensource_nfc",
+   "target_path": "vendor/nxp-nfc/opensource/Nfc"
+ }
+]
+
